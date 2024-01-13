@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+input,
+button {
+  font-family: inherit;
+}
+input {
+  outline: none;
+}
