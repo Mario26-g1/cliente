@@ -13,7 +13,7 @@ function App() {
 
   // const [value, setvalue] = useState();
 
-  const BaseUrl = "http://localhost:5000/api/v1/";
+  const BaseUrl = "https://back-server-of7j.onrender.com/api/v1/";
 
   const [users, getAllUser, CreateUser, deleteUser, updateUser] =
     useFerch(BaseUrl);
