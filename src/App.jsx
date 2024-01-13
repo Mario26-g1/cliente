@@ -9,11 +9,8 @@ function App() {
   const [isClose, setIsClose] = useState(true);
 
   const [update, setUpdate] = useState();
-  // const BaseUrl = "https://users-crud.academlo.tech/";
 
-  // const [value, setvalue] = useState();
-
-  const BaseUrl = "https://back-server-of7j.onrender.com/api/v1/";
+  const BaseUrl = "https://back-server-e4rl.onrender.com/api/v1/";
 
   const [users, getAllUser, CreateUser, deleteUser, updateUser] =
     useFerch(BaseUrl);
